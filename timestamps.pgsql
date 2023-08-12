@@ -8,7 +8,7 @@ SELECT timestamp '2012-08-31 01:00:00' - timestamp '2012-07-30 01:00:00' AS inte
 2
 Get the day of the month FROM the timestamp '2012-08-31' AS an integer.
 */
-SELECT DATE_PART('2012-08-31')
+SELECT DATE_PART('month', timestamp '2012-08-31')
 
 ALTERNATIVELY
 
